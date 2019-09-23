@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:id="@+id/parent_layout"
+    android:background="@color/colorPrimary">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/lb_player_email"
+        android:text="bram0@gmail.com"
+        android:textColor="@color/colorWhite"
+        android:textSize="20sp"
+        android:paddingRight="25dp"
+        android:paddingEnd="25dp"
+        android:paddingLeft="25dp"
+        android:layout_centerVertical="true"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/lb_player_wins"
+        android:text="10000000000000"
+        android:textColor="@color/colorWhite"
+        android:textSize="20sp"
+        android:paddingRight="25dp"
+        android:paddingEnd="25dp"
+        android:paddingLeft="25dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_alignParentEnd="true"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="@color/colorPrimaryDark"
+        android:layout_below="@id/lb_player_email"
+        android:layout_marginTop="30dp"/>
+</RelativeLayout>

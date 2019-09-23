@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "214230239649",
+    "firebase_url": "https://pitjesbak.firebaseio.com",
+    "project_id": "pitjesbak",
+    "storage_bucket": "pitjesbak.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:214230239649:android:9138384c9d5c4891",
+        "android_client_info": {
+          "package_name": "com.example.android.pitjesbak"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "214230239649-3acs8h2jn6kcmg57j5kivf62a8fcm5fq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.android.pitjesbak",
+            "certificate_hash": "bec1310c8cdde2c5124e2dcdda4ee0699a2e4dbb"
+          }
+        },
+        {
+          "client_id": "214230239649-j1okj0l18ric31ullv0tdqp7sjsg4s5l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCyr_r4JRruikmln3761UiT1MtNBsMO8kw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "214230239649-j1okj0l18ric31ullv0tdqp7sjsg4s5l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

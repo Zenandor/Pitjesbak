@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    tools:layout_editor_absoluteY="81dp"
+    android:background="@color/colorPrimary">
+
+    <TextView
+        android:id="@+id/player"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="75dp"
+        android:text="Gyut"
+        android:textColor="@color/colorWhite"/>
+
+    <TextView
+        android:id="@+id/dice2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="0"
+        android:textColor="@color/colorWhite"/>
+
+    <TextView
+        android:id="@+id/dice1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="75dp"
+        android:layout_toLeftOf="@id/dice2"
+        android:text="0"
+        android:textColor="@color/colorWhite"/>
+
+    <TextView
+        android:id="@+id/dice3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="75dp"
+        android:layout_toRightOf="@id/dice2"
+        android:text="0"
+        android:textColor="@color/colorWhite"/>
+
+    <TextView
+        android:id="@+id/current_score_player"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/dice2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="75dp"
+        android:layout_toRightOf="@id/dice2"
+        android:text="0"
+        android:textColor="@color/colorWhite"/>
+
+    <TextView
+        android:id="@+id/current_sore_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/dice2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="75dp"
+        android:layout_toLeftOf="@id/dice2"
+        android:text="Current Score:"
+        android:textColor="@color/colorWhite"/>
+
+    <TextView
+        android:id="@+id/lives_player"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/lives_label"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/lives_label"
+        android:text="7"
+        android:textColor="@color/colorWhite"/>
+
+    <TextView
+        android:id="@+id/lives_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@id/dice2"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="50dp"
+        android:text="Lives:"
+        android:textColor="@color/colorWhite"/>
+
+    <CheckBox
+        android:id="@+id/check1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@id/dice2"
+        android:layout_marginRight="65dp"
+        android:layout_below="@id/dice1"
+        android:textColor="@color/colorWhite"/>
+
+    <CheckBox
+        android:id="@+id/check2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/dice2"
+        android:textColor="@color/colorWhite" />
+
+    <CheckBox
+        android:id="@+id/check3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@id/dice2"
+        android:layout_marginLeft="65dp"
+        android:layout_below="@id/dice3"
+        android:textColor="@color/colorWhite"/>
+
+
+    <Button
+        android:id="@+id/roll"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:text="Roll"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="125dp"
+        android:layout_marginLeft="75dp"
+        android:textColor="@color/colorWhite"
+        android:background="@color/colorAccent"
+        />
+
+    <Button
+        android:id="@+id/stop"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:text="Stop"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="125dp"
+        android:layout_marginRight="75dp"
+        android:textColor="@color/colorWhite"
+        android:background="@color/colorAccent"/>
+
+    <TextView
+        android:id="@+id/stoefen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="90dp"
+        android:layout_marginBottom="180dp"
+        android:text="Stoefen"
+        android:visibility="invisible"
+        android:textColor="@color/colorWhite"/>
+
+    <TextView
+        android:id="@+id/other"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop= "true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:text="Player 2"
+        android:textColor="@color/colorWhite" />
+
+    <TextView
+        android:id="@+id/current_score_other"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/other"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="75dp"
+        android:layout_toRightOf="@id/dice2"
+        android:text="0"
+        android:textColor="@color/colorWhite"/>
+
+    <TextView
+        android:id="@+id/current_sore_label_other"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/other"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="75dp"
+        android:layout_toLeftOf="@id/dice2"
+        android:text="Current Score:"
+        android:textColor="@color/colorWhite"/>
+
+    <TextView
+        android:id="@+id/lives_other"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/lives_label_other"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/lives_label_other"
+        android:text="7"
+        android:textColor="@color/colorWhite"/>
+
+    <TextView
+        android:id="@+id/lives_label_other"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@id/dice2"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="50dp"
+        android:text="Lives:"
+        android:textColor="@color/colorWhite"/>
+
+</RelativeLayout>
